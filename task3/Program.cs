@@ -35,5 +35,5 @@ else if (daynumber == "7")
 }
 else
 {
-    Console.WriteLine("Пока");
+    Console.WriteLine("Нет такого дня");
 }
