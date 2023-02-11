@@ -7,9 +7,9 @@
 Console.Write( " Введите число: " );
 int number = Convert.ToInt32(Console.ReadLine());
 
-int fnumber = 2;
+int fnumber = 0;
 
-if ( number > 1 )
+if ( number % 2 == 1 )
 {
     while ( fnumber <= number)
     {
