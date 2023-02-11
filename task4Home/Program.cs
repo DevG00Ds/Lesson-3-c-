@@ -20,25 +20,13 @@ if(numberA > numberB)
 {
     max = numberA;
 }
-else
+else if (numberB > numberС)
 {
     max = numberB;
 }
-if(numberB > numberС)
-{
-    max = numberB;
-}
-else
+else if ( numberС > numberA)
 {
     max = numberС;
-}
-if(numberС > numberA)
-{
-    max = numberС;
-}
-else
-{
-    max = numberA;
 }
 
 Console.WriteLine("max:  " + max);
