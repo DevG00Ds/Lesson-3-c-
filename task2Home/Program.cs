@@ -10,20 +10,21 @@ string answer1 = Console.ReadLine();
 Console.WriteLine("Введите число № 2");
 string answer2 = Console.ReadLine();
 
+int max = 0;
+int min = 0;
 int numberA = Convert.ToInt32(answer1);
 int numberB = Convert.ToInt32(answer2);
 
 if ( numberA > numberB )
 {
-    Console.WriteLine("Первое число MAX");
-    Console.WriteLine("Второе число MIN");
-}
-else if (numberA < numberB)
-{
-    Console.WriteLine("Первое число MIN");
-    Console.WriteLine("Второе число MAX");
+    max = numberA;
+    min = numberB;
 }
 else
 {
-    Console.WriteLine("Оба числа равны");
+    max = numberB;
+    min = numberA;
 }
+
+
+Console.WriteLine(" max = " + max + " и " + " min = " + min);
