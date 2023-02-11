@@ -29,4 +29,4 @@ if(numberС > max)
     max = numberС;
 }
 
-Console.WriteLine("max = " + max);
+Console.WriteLine("max " + max);
