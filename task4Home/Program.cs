@@ -7,13 +7,13 @@
 
 int max = 0;
 
-Console.WriteLine("Введите первое число");
+Console.Write("Введите первое число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите второе число");
+Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите третье число");
+Console.Write("Введите третье число: ");
 int numberС = Convert.ToInt32(Console.ReadLine());
 
 if(numberA > numberB)
@@ -41,4 +41,4 @@ else
     max = numberA;
 }
 
-Console.WriteLine("max " + max);
+Console.WriteLine("max:  " + max);

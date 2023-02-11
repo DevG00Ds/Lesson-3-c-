@@ -5,7 +5,7 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine( " Введите число: ");
+Console.Write( " Введите число: ");
 string answer = Console.ReadLine();
 int number = Convert.ToInt32(answer);
 int DIV = number % 2;

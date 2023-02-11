@@ -5,9 +5,9 @@
 // a = -9, b = -3 -> min = -9, max = -3
 
 
-Console.WriteLine("Введите число № 1");
+Console.Write("Введите число № 1: ");
 string answer1 = Console.ReadLine();
-Console.WriteLine("Введите число № 2");
+Console.Write("Введите число № 2: ");
 string answer2 = Console.ReadLine();
 
 int max = 0;
